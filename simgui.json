@@ -1,0 +1,34 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "SPARK MAX [6]": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/Shuffleboard/Commands/Cone Ground Intake": "Command",
+      "/Shuffleboard/Commands/Go To Stow": "Command",
+      "/Shuffleboard/Commands/Ground Intake Tipped Cone": "Command",
+      "/Shuffleboard/Commands/High Goal Setpoint": "Command",
+      "/Shuffleboard/Commands/Human Player Station": "Command",
+      "/Shuffleboard/Commands/Middle Score Zone": "Command",
+      "/Shuffleboard/Commands/Reset Pose": "Command",
+      "/Shuffleboard/Commands/Test Stow Zone": "Command",
+      "/Shuffleboard/Commands/Toggle Angle Brake Mode": "Command",
+      "/SmartDashboard/Auto Modes": "String Chooser",
+      "/SmartDashboard/Field": "Field2d"
+    },
+    "windows": {
+      "/SmartDashboard/Field": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  }
+}
